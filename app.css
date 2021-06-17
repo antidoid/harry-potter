@@ -1,0 +1,273 @@
+body {
+    background: rgb(215,183,37);
+    background: linear-gradient(137deg, rgba(215,183,37,1) 30%, rgba(157,155,71,1) 72%);
+    line-height: 1.58;
+}
+
+.background-image-layer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media1.popsugar-assets.com/files/2020/04/09/983/n/1922507/ea4b83cbb94d40fa_sarah-ehlers-ltFKYpgoKto-unsplash/i/Harry-Potter-Platform-9-34-Zoom-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    position: fixed;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+}
+
+header h1 {
+    font-family: 'Original Surfer', cursive;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-family: 'Original Surfer';
+}
+
+.fab-icon.fab-icon-2x {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+}
+
+.container {
+    width: 70%;
+    height: max-content;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.container:first-of-type {
+    height: max-content;
+}
+
+.container:nth-of-type(2) {
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.container:nth-of-type(3) {
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.container:nth-of-type(5) {
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.container:nth-of-type(6) {
+    background-image: url(https://image.freepik.com/free-photo/yellow-parchment_53876-85007.jpg);
+}
+
+.container-header {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    grid-column: 1/ 13;
+    grid-row: span 1;
+
+}
+
+.picture {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    grid-column: 1/ 5;
+}
+
+.container:nth-of-type(1) .picture {
+    background-image: url(https://i.pinimg.com/originals/cc/34/d1/cc34d1581ba1bd499d05f0292c53f6c9.jpg);
+}
+
+.overview {
+    grid-column: 5/ 13;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.card {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.card-image {
+    width: 100%;
+    height: 65%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container:nth-of-type(2) .card:nth-of-type(1) .card-image{
+    background-image: url(https://miro.medium.com/max/552/1*5lRZuHyx50IRwTrcPuXDEA.jpeg);    
+}
+.container:nth-of-type(2) .card:nth-of-type(2) .card-image{
+    background-image: url(https://fanart.tv/fanart/movies/672/moviethumb/harry-potter-and-the-chamber-of-secrets-5564e3f8389cb.jpg);
+}
+.container:nth-of-type(2) .card:nth-of-type(3) .card-image{
+    background-image: url(https://th.bing.com/th/id/OIP.WJx7hhpQ8tCf5XfvsCLEygHaEo?pid=ImgDet&rs=1);
+}
+.container:nth-of-type(2) .card:nth-of-type(4) .card-image{
+    background-image: url(https://th.bing.com/th/id/R3c71176b588c4d29b983a8e31c4e6e48?rik=qmgQCp4AkrkMyQ&riu=http%3a%2f%2fimages1.fanpop.com%2fimages%2fphotos%2f1900000%2fHarry-Potter-cast-harry-potter-and-the-goblet-of-fire-1913230-2560-1924.jpg&ehk=Wp%2btEmbQZkjd5w%2f5K%2fNudKkOU5JKAIfApIWyZ0ur1vY%3d&risl=&pid=ImgRaw);
+}
+.container:nth-of-type(2) .card:nth-of-type(5) .card-image{
+    background-image: url(https://th.bing.com/th/id/R370e2216a1d96e98fbf9886ccf0dd055?rik=%2bcuRYcETlq9pRg&riu=http%3a%2f%2fimages1.fanpop.com%2fimages%2fimage_uploads%2fOrder-of-the-Phoenix-harry-potter-931095_1680_1050.jpg&ehk=zcmurFHIPnsT0M%2b6Fkve4Azct%2fTND4uPfAsWGTffrVg%3d&risl=&pid=ImgRaw);
+}
+.container:nth-of-type(2) .card:nth-of-type(6) .card-image{
+    background-image: url(https://th.bing.com/th/id/Rf8352c28caac83bd9f0da0d77e977453?rik=EmZec2t9yZx2TQ&riu=http%3a%2f%2fwallpoper.com%2fimages%2f00%2f13%2f62%2f60%2fharry-potter-and-the-half-blood-prince_00136260.jpg&ehk=4PDmfJIwwA4INkiwTKyvKAoUehZah8kCmbvUVX%2bQmhI%3d&risl=&pid=ImgRaw);
+}
+.container:nth-of-type(2) .card:nth-of-type(7) .card-image{
+    background-image: url(https://th.bing.com/th/id/R622149318df253539cfad39203811e52?rik=XIwjfNbIHZyzCw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-CiMq0OxlJBU%2fVgAOcBYMwyI%2fAAAAAAAAAFE%2f0CRyT-FvmK4%2fs1600%2fHarry-Potter-and-the-Deathly-Hallows-Part-1-2010.jpg&ehk=rEWMTZr8aExnXz40D%2fnnLgSKHGDT0TjgY3rjaArbXj4%3d&risl=&pid=ImgRaw);
+}
+.container:nth-of-type(2) .card:nth-of-type(8) .card-image{
+    background-image: url(https://th.bing.com/th/id/OIP.fPHukaMe_vkjvMtGpVQYSgHaEo?pid=ImgDet&rs=1);
+}
+
+.card p {
+    width: 100%;
+    height: max-content;
+    line-height: normal;
+    margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.card-name {
+    font-weight: 400;
+}
+
+.card-year {
+    color: #555;
+}
+
+.container:nth-of-type(3) .card:nth-of-type(1) .card-image {
+    background-image: url(https://wallpapercave.com/wp/wp2448634.jpg);
+}
+.container:nth-of-type(3) .card:nth-of-type(2) .card-image {
+    background-image: url(https://gamepedia.cursecdn.com/hearthstone_gamepedia/thumb/7/70/Cloak_of_Invisibility_full.jpg/500px-Cloak_of_Invisibility_full.jpg?version=3f00d7f7d959c772e047b642694634f0);
+}
+.container:nth-of-type(3) .card:nth-of-type(3) .card-image {
+    background-image: url(https://th.bing.com/th/id/OIP.L34DiIQeNicVE8r2Sl5dxAHaCL?pid=ImgDet&rs=1);
+}
+
+.container:nth-of-type(4) .card .card-image {
+    background-image: url(https://imagesvc.timeincapp.com/v3/fan/image?url=https://culturess.com/wp-content/blogs.dir/386/files/2016/10/Hogwarts-lake.jpg&c=sc&w=827&h=320);
+}
+
+.container:nth-of-type(5) .card:nth-of-type(1) .card-image {
+    background-image: url(https://th.bing.com/th/id/Ra3fd9977a6918608b29d057dc49f86da?rik=I%2bv26BmaQwnpwg&riu=http%3a%2f%2fs1.bwallpapers.com%2fwallpapers%2f2014%2f01%2f05%2fhermione-granger_100441.jpg&ehk=D7Z5aBlMW21SzMh%2fuLUKf1ZJ9AKKHNd5HeHiUvkK9HI%3d&risl=&pid=ImgRaw);
+}
+
+.container:nth-of-type(5) .card:nth-of-type(2) .card-image {
+    background-image: url(https://th.bing.com/th/id/OIP.dTycxSST6ba8PpCAE4r_aAHaFj?pid=ImgDet&rs=1);
+}
+.container:nth-of-type(5) .card:nth-of-type(3) .card-image {
+    background-image: url(https://nerdist.com/wp-content/uploads/2019/08/Harry-Potter-Zodiac-Hagrid.jpg);
+}
+.container:nth-of-type(5) .card:nth-of-type(4) .card-image {
+    background-image: url(https://th.bing.com/th/id/OIP.GtCWz6bW8c7LsFm8V6JNWQHaFj?pid=ImgDet&rs=1);
+}
+.container:nth-of-type(5) .card:nth-of-type(5) .card-image {
+    background-image: url(https://th.bing.com/th/id/OIP.lVeRGWx79gJ19prIL-kqVAHaFj?pid=ImgDet&rs=1);
+    background-position: top;
+}
+.container:nth-of-type(5) .card:nth-of-type(6) .card-image {
+    background-image: url(https://www.dailydot.com/wp-content/uploads/a9a/93/d53d12cf3357abb5-1024x512.jpg);
+}
+.container:nth-of-type(5) .card:nth-of-type(7) .card-image {
+    background-image: url(https://www.quirkybyte.com/wp-content/uploads/2018/06/Ginny-Weasley-9.jpg);
+}
+.container:nth-of-type(5) .card:nth-of-type(8) .card-image {
+    background-image: url(https://th.bing.com/th/id/OIP.OJjMfldPVk8ApiMqEyoiQgHaHI?pid=ImgDet&rs=1);
+}
+.container:nth-of-type(5) .card:nth-of-type(9) .card-image {
+    background-image: url(https://th.bing.com/th/id/OIP.a6DRMPyWKuMhUXUW1HEFKgHaDt?pid=ImgDet&w=660&h=330&rs=1);
+    background-position: top;
+}
+
+.container:nth-of-type(6) .picture {
+    background-image: url(https://c2.staticflickr.com/8/7180/7106719371_72eb4095d3_b.jpg);
+}
+
+.overview span {
+    display: block;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(0,155,119);
+    font-family: 'Ink Free', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .container:nth-of-type(1) .picture {
+        grid-column: 1/ 13;
+    }
+    .container:nth-of-type(1) .overview {
+        grid-column: 1/ 13;
+    }
+    .container:nth-of-type(2) .card, .container:nth-of-type(3) .card, .container:nth-of-type(5) .card{
+        grid-column: span 6;
+    }
+    .container:nth-of-type(2) {
+        grid-template-rows: repeat(13, 1fr);
+    }
+    .container:nth-of-type(3), .container:nth-of-type(4) {
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .container:nth-of-type(4) .card, .container:nth-of-type(4) .overview{
+        grid-column: span 12;
+        grid-row: span 3;
+    }
+    .container:nth-of-type(5) {
+        grid-template-rows: repeat(16, 1fr);
+    }
+    .container:nth-of-type(6) .picture, .container:nth-of-type(6) .overview {
+        grid-column: span 12;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    .container:nth-of-type(2) .card, .container:nth-of-type(3) .card, .container:nth-of-type(5) .card{
+        grid-column: span 12;
+    }
+    .container:nth-of-type(2) {
+        grid-template-rows: repeat(25, 1fr);
+    }
+    .container:nth-of-type(3) {
+        grid-template-rows: repeat(10, 1fr);
+    }
+    .container:nth-of-type(4) {
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .container:nth-of-type(5) {
+        grid-template-rows: repeat(28, 1fr);
+    }
+    .background-image-layer {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 376px) {
+    .background-image-layer {
+        height: 50vh;
+    }
+}
